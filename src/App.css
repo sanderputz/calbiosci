@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hero-img {
+  background-image: url( https://secureservercdn.net/192.169.220.85/a9g.f4d.myftpupload.com/wp-content/uploads/2021/07/yt5s.com-Network-Connection-Background-Video-Plexus-Dot-Connection-Background-Loop-_-Free-Stock-Footage.gif);
+            min-height: 369px;
+            background-size:cover;
+            background-repeat:no-repeat;
+            text-align:center;
+        }
+.jumbotron .container {
+    color: white;
+}
+.jumbotron {
+    max-width:575px;
+    display:inline-block;
+    margin-top:80px;
+}
+body {
+    background-color:black;
+    color:white;
+}
+.infopanel {
+    text-align:center;
+    margin-top:80px;
+    margin-bottom:80px;
+    padding:0 40px;
+}
+.infopanel h3, .infopanel p, .infopanel h2 {
+    font-weight:300;
+}
+.startbutton {
+    margin-top:20px;
+}
